@@ -179,9 +179,9 @@ form {
 */
          .wrapper {
                 display: grid;
-                grid-gap: 5px;
-               
-                margin: 10px;
+                grid-gap: 10px;
+               padding: 10px;
+                margin: 25px;
 } /*
         .boxx{
                 
@@ -190,13 +190,14 @@ form {
                 
         }*/
         .one {
-                background-image: url("../images/palm.jpg");
+                background-image: url('../images/roasted-coffee-beans-from-sack-in-symbol-heart-shape-on-rustic-wooden-background_t20_pxoE0P.comp.jpg');
                 background-size: cover;
                 grid-column: 1 / 2;
                 grid-row: 1 / 2;
-                
                 height: 150px;
                 width: 150px;
+                border: white 1px;
+                border-style: ridge;
                
 }
         .two { 
@@ -205,19 +206,21 @@ form {
                 background-size: cover;
                 grid-column: 2 / 3;
                 grid-row: 1 / 2;
-                
                 height: 150px;
                 width: 150px;
                 object-fit: contain;
+                border: white 1px;
+                border-style: ridge;
 }
         .three {
                 background-image: url("../images/palm.jpg");
                 background-size: cover;
                 grid-column: 3 / 3;
                 grid-row: 1 / 2;
-                
-                 height: 150px;
+                height: 150px;
                 width: 150px;
+                border: white 1px;
+                border-style: ridge;
 }
         .four {
                 background-image: url("../images/github-square.svg");
@@ -226,6 +229,9 @@ form {
                 grid-row: 2 / 2;
                  height: 150px;
                 width: 150px;
+                padding-bottom: 5px;
+                border: white 1px;
+                border-style: ridge;
                 
 }
         .five {
@@ -234,16 +240,26 @@ form {
                 object-fit: cover;
                 grid-column: 2 / 3;
                 grid-row: 2 / 2;
-                
-                 height: 150px;
+                height: 150px;
                 width: 150px;
+                border: white 1px;
+                border-style: ridge;
+}
+        .six {
+                background-image: url("../images/useful.jpg");
+                background-size: cover;
+                object-fit: cover;
+                grid-column: 3 / 3;
+                grid-row: 2 / 2;
+                height: 150px;
+                width: 150px;
+                border: white 1px;
+                border-style: ridge;
 }
         h4 {
-                background-color: orangered;
+                background-color: lightblue;
                 top: 200px;
-                
                 color: white;
-                
                 z-index: 100;
                 width: 100%;
                 
