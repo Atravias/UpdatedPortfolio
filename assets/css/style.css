@@ -1,28 +1,3 @@
-    /* header  {
-        font-family: 'Georgia', Times, 'Times New Roman', serif;    
-        background-color: #ffffff;
-        width: 100%;
-        height: 67px;
-        top: 0;
-        right: 0;
-        position: fixed;
-       
-}
-    .sideBorder {
-            border-style: solid;
-            border-top: azure 10px;
-            border-bottom: black;
-            color: black;
-}
-    h1  {
-           width: 800px;
-            text-decoration-color: #333;
-            font-size: 16px;
-            margin: 0 auto;
-            margin-bottom: 0px;
-            text-align: center;
-
-}*/
 
     #container   {
             position: relative !important;
@@ -43,55 +18,7 @@
             padding: 0;
            
 }
-      /* #bio-image  { 
-            float: left;
-            width: 200px;
-            margin-top: 10px;
-            margin-bottom: 10px;
-            margin-right: 10px;
-            margin-left: 10px;
-}
-        #main-bio   {
-            float: left;
-            text-decoration-color: #777777;
-            
-    }
 
-
- 
-        nav {
-                float: left;
-               
-               
-                text-size-adjust: 8px;
-        
-        
-}
-.btn    {
-        
-        font-weight: 700;
-        
-        
-     
-
-}
-.btn:hover      {
-        border: solid 2px;
-        background-color: cyan;
-
-}
-h2 { 
-        font-weight: 700;
-        background-color: #4aaaa5;
-        margin-top: auto;
-        align-content: center;
-        width: 350px;
-        border-style: solid;
-        border-width: 20px;
-        border-color: #4aaaa5;
-        vertical-align: top;
-} 
-*/
 .box {
         background-color: steelblue;
         width: 100%;
@@ -124,11 +51,7 @@ h2 {
         align-content: center;
 
 }
-/*
-p {
-        line-height: 1.5;
-        margin: 10px;
-}*/
+
  .abtme {
         text-align: left;
         margin-left: 10px;
@@ -165,18 +88,9 @@ input[type=submit]:hover {
 }
 form {
         margin: 10px;
-}/*
-.footer2 {
-        height: 10px;
-
-        bottom: 10px;
-        width: 100%;
-        background-color: teal;
-        color: white;
-        text-align: center;
-
 }
-*/
+
+
          .wrapper {
                 display: grid;
                 grid-template-columns: auto auto auto;
@@ -184,13 +98,8 @@ form {
                 grid-gap: 10px;
                 padding: 10px;
                 margin: 25px;
-} /*
-        .boxx{
-                
-                align-content: center;
-
-                
-        }*/
+}           
+        
         .one {
                 background-image: url('../images/roasted-coffee-beans-from-sack-in-symbol-heart-shape-on-rustic-wooden-background_t20_pxoE0P.comp.jpg');
                 background-size: cover;
@@ -237,7 +146,7 @@ form {
                 
 }
         .five {
-                background-image: url("../images/useful.jpg");
+                background-image: url("../images/scratch-game.PNG");
                 background-size: cover;
                 object-fit: cover;
                 grid-column: 2 / 3;
@@ -271,6 +180,11 @@ form {
                 font-weight: 600;
                 color: black;
         }
+
+        h4 div {
+                font-weight: 900;
+                color: black;
+        }
         .lnk {
                 background-color: lightblue;
                 top: 200px;
@@ -280,5 +194,6 @@ form {
                 width: 100%;
                 height: 0;
                 align-content: end;
+                
                 
 }
